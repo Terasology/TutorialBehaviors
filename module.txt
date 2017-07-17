@@ -3,10 +3,16 @@
   "version": "0.1.0-SNAPSHOT",
   "author": "dkambersky",
   "displayName": "TutorialBehaviors",
-  "description": "Tutorials for the Behaviors module",
-  "dependencies": [{
-    "id": "Behaviors",
-    "minVersion": "0.2.0-SNAPSHOT"
-  }],
+  "description": "Examples for the Behaviors module",
+  "dependencies": [
+    {
+      "id": "Behaviors",
+      "minVersion": "0.2.0-SNAPSHOT"
+    },
+    {
+      "id": "NameGenerator",
+      "minVersion": "0.4.2-SNAPSHOT"
+    }
+  ],
   "serverSideOnly": false
 }
