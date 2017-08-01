@@ -1,0 +1,20 @@
+{
+  dynamic: [
+      {
+        guard: {
+          componentPresent: "TutorialBehaviors:Flee",
+          child: {
+            lookup: {
+              tree: "TutorialBehaviors:flee"
+            }
+          }
+        }
+      },
+      {
+        lookup: {
+          tree: "TutorialBehaviors:stray"
+        }
+      }
+
+  ]
+}
