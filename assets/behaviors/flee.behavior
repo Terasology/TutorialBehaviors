@@ -1,0 +1,27 @@
+{
+  sequence:[
+  {
+    animation : {
+      play: "engine:Walk.animationPool",
+      loop: "engine:Walk.animationPool"
+    }
+  },
+  {
+    set_speed : {
+      speedMultiplier: 1.2
+    }
+
+  },
+  {
+    loop: {
+      child : {
+        sequence : [
+          check_flee_stop,
+          set_target_nearby_block_away_from_player,
+          move_to
+        ]
+      }
+    }
+  }
+  ]
+}

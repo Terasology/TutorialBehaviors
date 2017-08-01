@@ -12,6 +12,10 @@
     {
       "id": "NameGenerator",
       "minVersion": "0.4.2-SNAPSHOT"
+    },
+    {
+      "id": "Core",
+      "minVersion": "1.4.1-SNAPSHOT"
     }
   ],
   "serverSideOnly": false

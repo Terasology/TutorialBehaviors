@@ -1,0 +1,20 @@
+{
+  dynamic: [
+    {
+      sequence: [
+        {
+          condition: {
+            componentPresent: "Core:Health",
+            values: ["currentHealth < 15"]
+          }
+        },
+        {
+          log: {
+           message: "I'm injured!"
+          }
+        }
+      ]
+    },
+    running
+  ]
+}
