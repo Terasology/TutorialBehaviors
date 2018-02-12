@@ -1,22 +1,13 @@
 {
-  "id": "TutorialBehaviors",
-  "version": "0.1.1-SNAPSHOT",
-  "author": "dkambersky",
-  "displayName": "TutorialBehaviors",
-  "description": "Examples for the Behaviors module",
-  "dependencies": [
-    {
-      "id": "Behaviors",
-      "minVersion": "0.2.0"
-    },
-    {
-      "id": "NameGenerator",
-      "minVersion": "0.4.2"
-    },
-    {
-      "id": "Core",
-      "minVersion": "2.0.0"
-    }
-  ],
-  "serverSideOnly": false
+    "id": "TutorialBehaviors",
+    "version": "0.1.1-SNAPSHOT",
+    "author": "dkambersky",
+    "displayName": "TutorialBehaviors",
+    "description": "Examples for the Behaviors module",
+    "dependencies": [
+        {"id": "Behaviors", "minVersion": "0.2.0"},
+        {"id": "NameGenerator", "minVersion": "0.4.2"},
+        {"id": "Core", "minVersion": "2.0.0"}
+    ],
+    "serverSideOnly": false
 }
