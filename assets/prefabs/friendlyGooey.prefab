@@ -1,21 +1,13 @@
 {
   "alwaysRelevant": true,
   "DisplayName": {
-    "name": "gooey"
+    "name": "friendlyGooey"
   },
   "persisted": true,
-  "Color": {
-    "color": [
-      128,
-      0,
-      0,
-      255
-    ]
-  },
   "skeletalmesh": {
-    "mesh": "gooey",
+    "mesh": "TutorialBehaviors:gooey",
     "heightOffset": -2.0,
-    "material": "gooey",
+    "material": "TutorialBehaviors:greenGooey",
     "animationPool": [
       "gooeyIdleBreathing",
       "gooeyIdleBreathing",
@@ -50,7 +42,7 @@
     ]
   },
   "Behavior": {
-    "tree": "TutorialBehaviors:stray"
+    "tree": "Behaviors:friendlyCritter"
   },
   "Stand": {
     "animationPool": [
@@ -112,6 +104,9 @@
       "engine:debris",
       "engine:sensor"
     ]
+  },
+  "FindNearbyPlayers": {
+    "maxDistance": 50
   }
 }
 
