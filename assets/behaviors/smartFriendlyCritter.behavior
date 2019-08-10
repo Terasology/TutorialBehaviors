@@ -9,7 +9,7 @@
                         followCharacter,
                         {
                             lookup: {
-                                tree: "TutorialBehaviors:pathfindingFollow"
+                                tree: "Behaviors:dynamicPathfindingFollow"
                             }
                         }
                     ]
