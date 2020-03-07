@@ -7,7 +7,7 @@
     "dependencies": [
         {"id": "Behaviors", "minVersion": "0.2.0"},
         {"id": "NameGenerator", "minVersion": "0.4.2"},
-        {"id": "Core", "minVersion": "2.0.0"}
+        {"id": "Core", "minVersion": "3.0.0"}
     ],
     "serverSideOnly": false
 }
