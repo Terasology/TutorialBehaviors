@@ -6,7 +6,7 @@
     "description": "Examples for the Behaviors module",
     "dependencies": [
         {"id": "Behaviors", "minVersion": "0.2.0"},
-        {"id": "NameGenerator", "minVersion": "0.4.2"},
+        {"id": "NameGenerator", "minVersion": "0.4.2"}
     ],
     "serverSideOnly": false,
     "isTutorial": true
