@@ -4,7 +4,7 @@
       sequence: [
         {
           condition: {
-            componentPresent: "Core:Health",
+            componentPresent: "Health:Health",
             values: ["currentHealth < 15"]
           }
         },

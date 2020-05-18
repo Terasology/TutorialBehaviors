@@ -1,13 +1,15 @@
 {
     "id": "TutorialBehaviors",
-    "version": "0.1.1-SNAPSHOT",
+    "version": "1.0.0",
     "author": "dkambersky",
     "displayName": "TutorialBehaviors",
     "description": "Examples for the Behaviors module",
     "dependencies": [
-        {"id": "Behaviors", "minVersion": "0.2.0"},
-        {"id": "NameGenerator", "minVersion": "0.4.2"},
-        {"id": "Core", "minVersion": "3.0.0"}
+        { "id": "Behaviors", "minVersion": "1.0.0" },
+        { "id": "Drops", "minVersion": "1.0.1" },
+        { "id": "Health", "minVersion": "1.0.0" },
+        { "id": "NameGenerator", "minVersion": "1.0.0" }
     ],
-    "serverSideOnly": false
+    "serverSideOnly": false,
+    "isTutorial": true
 }
