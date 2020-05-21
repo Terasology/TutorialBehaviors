@@ -8,7 +8,8 @@
         { "id": "Behaviors", "minVersion": "1.0.0" },
         { "id": "Drops", "minVersion": "1.0.1" },
         { "id": "Health", "minVersion": "1.0.0" },
-        { "id": "NameGenerator", "minVersion": "1.0.0" }
+        { "id": "NameGenerator", "minVersion": "1.0.0" },
+        { "id": "Pathfinding", "minVersion": "1.0.0" }
     ],
     "serverSideOnly": false,
     "isTutorial": true
