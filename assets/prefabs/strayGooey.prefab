@@ -1,13 +1,13 @@
 {
     "alwaysRelevant": true,
     "displayName": {
-        "name": "Neutral Gooey"
+        "name": "Stray Gooey"
     },
     "persisted": true,
     "skeletalmesh": {
         "mesh": "TutorialBehaviors:gooey",
         "heightOffset": -2.0,
-        "material": "TutorialBehaviors:neutralGooey",
+        "material": "TutorialBehaviors:strayGooey",
         "animationPool": [
             "gooeyIdleBreathing",
             "gooeyIdleBreathing",
@@ -42,7 +42,7 @@
         ]
     },
     "Behavior": {
-        "tree": "TutorialBehaviors:neutralGooey"
+        "tree": "Behaviors:stray"
     },
     "Stand": {
         "animationPool": [
