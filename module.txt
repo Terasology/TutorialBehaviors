@@ -5,7 +5,7 @@
     "displayName": "TutorialBehaviors",
     "description": "Examples for the Behaviors module",
     "dependencies": [
-        { "id": "Behaviors", "minVersion": "1.0.0" },
+        { "id": "Behaviors", "minVersion": "1.1.0" },
         { "id": "Drops", "minVersion": "1.0.1" },
         { "id": "Health", "minVersion": "1.0.0" },
         { "id": "NameGenerator", "minVersion": "1.0.0" },
