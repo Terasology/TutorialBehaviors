@@ -1,13 +1,13 @@
 {
     "alwaysRelevant": true,
-    "DisplayName": {
-        "name": "angryGooey"
+    "displayName": {
+        "name": "Nocturnal Gooey"
     },
     "persisted": true,
     "skeletalmesh": {
         "mesh": "TutorialBehaviors:gooey",
         "heightOffset": -2.0,
-        "material": "TutorialBehaviors:redGooey",
+        "material": "TutorialBehaviors:nocturnalGooey",
         "animationPool": [
             "gooeyIdleBreathing",
             "gooeyIdleBreathing",
@@ -42,7 +42,7 @@
         ]
     },
     "Behavior": {
-        "tree": "Behaviors:hostileCritter"
+        "tree": "TutorialBehaviors:nocturnalGooey"
     },
     "Stand": {
         "animationPool": [
@@ -104,8 +104,6 @@
             "engine:debris",
             "engine:sensor"
         ]
-    },
-    "FindNearbyPlayers": {
-        "maxDistance": 50
     }
 }
+

@@ -1,0 +1,10 @@
+{
+    sequence: [
+        check_nighttime,
+        {
+            lookup: {
+                tree: "Behaviors:stray"
+            }
+        }
+    ]
+}
