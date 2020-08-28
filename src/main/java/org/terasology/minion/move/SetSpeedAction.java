@@ -20,7 +20,7 @@ import org.terasology.logic.behavior.core.Actor;
 import org.terasology.logic.behavior.core.BaseAction;
 import org.terasology.logic.behavior.core.BehaviorState;
 import org.terasology.logic.characters.CharacterMovementComponent;
-import org.terasology.rendering.nui.properties.Range;
+import org.terasology.nui.properties.Range;
 
 /*
  * Sets the speed multiplier of the entity
