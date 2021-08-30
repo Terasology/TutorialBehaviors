@@ -21,7 +21,7 @@ import org.terasology.engine.entitySystem.systems.BaseComponentSystem;
 import org.terasology.engine.entitySystem.systems.RegisterMode;
 import org.terasology.engine.entitySystem.systems.RegisterSystem;
 import org.terasology.engine.logic.characters.CharacterMovementComponent;
-import org.terasology.engine.logic.health.event.OnDamagedEvent;
+import org.terasology.module.health.events.OnDamagedEvent;
 import org.terasology.minion.component.FleeOnHitComponent;
 import org.terasology.minion.component.FleeComponent;
 
