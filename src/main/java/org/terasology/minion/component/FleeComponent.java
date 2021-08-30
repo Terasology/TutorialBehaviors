@@ -15,8 +15,8 @@
  */
 package org.terasology.minion.component;
 
-import org.terasology.entitySystem.Component;
-import org.terasology.entitySystem.entity.EntityRef;
+import org.terasology.engine.entitySystem.Component;
+import org.terasology.engine.entitySystem.entity.EntityRef;
 
 /**
  * This component is used by the FleeOnHit and FleeInProximity module to allow an
